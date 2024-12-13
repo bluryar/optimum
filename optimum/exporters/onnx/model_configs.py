@@ -173,6 +173,9 @@ class MPNetOnnxConfig(DistilBertOnnxConfig):
 class RobertaOnnxConfig(DistilBertOnnxConfig):
     pass
 
+class ErnieOnnxConfig(BertOnnxConfig):
+    pass
+
 
 class CamembertOnnxConfig(DistilBertOnnxConfig):
     pass
