@@ -531,6 +531,15 @@ class TasksManager:
             "image-segmentation",
             onnx="DetrOnnxConfig",
         ),
+        "ernie": supported_tasks_mapping(
+            "feature-extraction",
+            "fill-mask",
+            "text-classification",
+            "multiple-choice",
+            "token-classification",
+            "question-answering",
+            onnx="ErnieOnnxConfig",
+        ),
         "distilbert": supported_tasks_mapping(
             "feature-extraction",
             "fill-mask",
