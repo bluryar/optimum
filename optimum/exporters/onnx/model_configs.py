@@ -237,6 +237,8 @@ class MarkupLMOnnxConfig(BertOnnxConfig):
 class DebertaV2OnnxConfig(DebertaOnnxConfig):
     pass
 
+class ErnieOnnxConfig(BertOnnxConfig):
+    pass
 
 class EsmOnnxConfig(TextEncoderOnnxConfig):
     NORMALIZED_CONFIG_CLASS = NormalizedTextConfig
