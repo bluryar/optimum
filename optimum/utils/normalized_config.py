@@ -258,6 +258,7 @@ class NormalizedConfigManager:
         "mpnet": NormalizedTextConfig,
         "mpt": MPTNormalizedTextConfig,
         "mt5": T5LikeNormalizedTextConfig,
+        "ernie": NormalizedTextConfig,
         "m2m-100": BartLikeNormalizedTextConfig,
         "nystromformer": NormalizedTextConfig,
         "opt": NormalizedTextConfig,
